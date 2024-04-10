@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h2>Formulario de Cadastro</h2> <hr>
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br> <br>
+
+        <label for="endereco">Endereço:</label><br>
+        <input type="text" id="endereco" name="endereco" required><br> <br>
+
+        Sexo:<br> 
+            <input type="radio" name="Sexo" checked> Masculino <br>
+            <input type="radio" name="Sexo"> Feminino <br>
+            <input type="radio" name="Sexo"> Outro <br><br>
+        
+        Idioma Fluente:<br>
+            <input type="checkbox" name="idioma"> Inglês <br>
+            <input type="checkbox" name="idioma"> Espanhol <br>
+            <input type="checkbox" name="idioma"> Outros<br><br>
+
+        <label for="idade">Idade:</label><br>
+        <input type="number" id="idade" name="idade" min="1" max="120" required><br><br>
+
+        <label for="anodenascimento">Ano de nascimento:</label><br>
+        <input type="number" id="anodenascimento" name="anodenascimento" min="1900" max="2023" required><br><br>
+
+        <label for="bairro">Bairro:</label><br>
+        <input type="text" id="bairro" name="bairro" required><br><br>
+        
+        <label for="cargo">Cargo:</label><br>
+        <input type="text" id="cargo" name="cargo" required><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
